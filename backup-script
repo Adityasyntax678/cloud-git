@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Define the source and backup directories
+
+
+SOURCE_DIR="/home/aditya-mohanty"  # Replace this with the correct path
+BACKUP_DIR="/home/aditya-mohanty/Backup_Dir"  # Replace this with the correct path
+
+# Create a backup folder with the current date
+
+
+
+DATE=$(date +%Y-%m-%d)  # This creates a date format like '2024-10-17'
+NEW_BACKUP_DIR="$BACKUP_DIR/$DATE"
+
+
+
+# Check if the backup directory exists, if not, create it
+
+
+
+if [ ! -d "$NEW_BACKUP_DIR" ]; then
+                                                              1,1           Top
+
